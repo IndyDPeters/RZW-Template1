@@ -1,3 +1,34 @@
 .menu_cases{
     color: red;
 }
+
+.gallery-wrapper{
+    text-align: center;
+    display: flex;
+    
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.gallery{
+    width: 10%;
+    
+   
+    
+}
+
+.gallery:hover{
+    border: 3px solid white;
+    font-size: xx-large;
+}
+
+.gallery-img{
+    width: 100%;
+  
+}
