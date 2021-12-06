@@ -8,28 +8,44 @@
     
 }
 
-body{
-    text-align: center;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
+
 
 .gallery{
-    width: 10%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
    
     
 }
 
+
+
 .gallery:hover{
-    border: 3px solid white;
+    
     font-size: xx-large;
 }
 
+.gallery:hover .gallery-img{
+    width: 40%;
+    
+}
+
 .gallery-img{
-    width: 100%;
+    width: 28%;
   
+}
+
+
+
+
+@media (max-width:991px) {
+    .gallery-wrapper{
+        display: contents;
+    }
+
+    .gallery-img{
+        width: 50%;
+    }
+    
+    
 }
