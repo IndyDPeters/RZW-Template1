@@ -13,6 +13,10 @@ body{
     
 }
 
+.menu_current{
+    color: red;
+}
+
 @media (max-width: 991px){
     body{
         font-size: 300%;
